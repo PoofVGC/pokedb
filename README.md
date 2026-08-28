@@ -18,8 +18,8 @@ This project contains both Pokémon box sprites and item sprites. For Pokémon, 
 |:-----------|:-------:|:-------:|:----------|:-----|:------------|
 | `/pokemon‑gen7` | ![/pokemon-gen7x/example1](pokemon-gen7/regular/squirtle.png) | ![/pokemon-gen7x/example2](pokemon-gen7/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 7 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen7.html), updated for Gen 8 size/contrast |
 | `/pokemon‑gen8` | ![/pokemon-gen8/example1](pokemon-gen8/shiny/squirtle.png) | ![/pokemon-gen8/example2](pokemon-gen8/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 8 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older sprites where needed) |
-| `/items` | ![/items/ example](items/evo-item/thunder-stone.png) | | 32×32 | Item | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) |
-| `/misc` | ![/misc/ example](misc/body-style/wings-multiple-gen6.png) | | Varies | Misc. | [Miscellaneous sprites](https://msikma.github.io/pokesprite/overview/misc.html) from multiple gens |
+| `/items` | ![/items/ example1](items/evo-item/thunder-stone.png) | | 32×32 | Item | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) |
+| `/misc` | ![/misc/example1](misc/body-style/bipedal-tailed-gen6.png) | ![/misc/example2](misc/body-style/bipedal-tailed-gen8.png) | Varies | Misc. | [Miscellaneous sprites](https://msikma.github.io/pokesprite/overview/misc.html) from multiple gens |
 
 
 The original 40×30 Pokémon sprites from Gen 6–7 are kept for legacy purposes in the [`/icons`](icons/) directory.
