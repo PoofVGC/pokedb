@@ -16,9 +16,8 @@ This project contains both Pokémon box sprites and item sprites. For Pokémon, 
 
 | Directory | Example1 | Example2 | Size | Type | Description |
 |:-----------|:-------:|:-------:|:----------|:-----|:------------|
-| `/pokemon‑gen7x` | ![/pokemon-gen7x/example1](pokemon-gen7x/regular/squirtle.png) | ![/pokemon-gen7x/example2](pokemon-gen7x/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 7 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen7.html), updated for Gen 8 size/contrast |
+| `/pokemon‑gen7` | ![/pokemon-gen7x/example1](pokemon-gen7/regular/squirtle.png) | ![/pokemon-gen7x/example2](pokemon-gen7/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 7 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen7.html), updated for Gen 8 size/contrast |
 | `/pokemon‑gen8` | ![/pokemon-gen8/example1](pokemon-gen8/shiny/squirtle.png) | ![/pokemon-gen8/example2](pokemon-gen8/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 8 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older sprites where needed) |
-| `/pokemon‑gen9` | ![/pokemon-gen9/example1](pokemon-gen9/shiny/squirtle.png) | ![/pokemon-gen9/example2](pokemon-gen9/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 9 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older sprites where needed) |
 | `/items` | ![/items/ example](items/evo-item/thunder-stone.png) | | 32×32 | Item | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) |
 | `/misc` | ![/misc/ example](misc/body-style/wings-multiple-gen6.png) | | Varies | Misc. | [Miscellaneous sprites](https://msikma.github.io/pokesprite/overview/misc.html) from multiple gens |
 
