@@ -67,6 +67,6 @@ For a better example of what many adjacent sprites look like with this setup, se
 
 The sprite images are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
-Everything else, and the programming code, is governed by the [MIT license](http://opensource.org/licenses/MIT).
+Everything else is governed by the [MIT license](http://opensource.org/licenses/MIT).
 
 See [the contributors file](contributors.md) for further information.
