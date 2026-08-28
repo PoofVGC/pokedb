@@ -15,29 +15,15 @@ These sprites can be used as individual files, or accessed programmatically usin
 This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8), including the DLC, are included. Item sprites are available with Gen 8 style white outlines and without.
 
 | Directory | Example1 | Example2 | Size | Type | Description |
-|:----------|:-------:|:-------:|:----------|:-----|:------------|
-| `/pokemon‑gen7x` | ![/pokemon-gen7x/ example](pokemon-gen7x/regular/squirtle.png) | ![/pokemon-gen7x/ example](pokemon-gen7x/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 7 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen7.html), updated to Gen 8 size and contrast |
-| `/pokemon‑gen8` | ![/pokemon-gen8/ example](pokemon-gen8/shiny/squirtle.png) | ![/pokemon-gen8/ example](pokemon-gen8/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 8 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older Gen 7 sprites where needed) |
-| `/pokemon‑gen9` | ![/pokemon-gen9/ example](pokemon-gen9/shiny/squirtle.png) | ![/pokemon-gen9/ example](pokemon-gen9/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 9 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older Gen 7 sprites where needed) |
-| `/items` | ![/items/ example](items/evo-item/thunder-stone.png) | | 32×32 | Items | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) |
-| `/misc` | ![/misc/ example](misc/body-style/wings-multiple-gen6.png) | Varies | Varies | Misc. | [Miscellaneous sprites](https://msikma.github.io/pokesprite/overview/misc.html) from multiple gens |
+|:-----------|:-------:|:-------:|:----------|:-----|:------------|
+| `/pokemon‑gen7x` | ![/pokemon-gen7x/example1](pokemon-gen7x/regular/squirtle.png) | ![/pokemon-gen7x/example2](pokemon-gen7x/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 7 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen7.html), updated for Gen 8 size/contrast |
+| `/pokemon‑gen8` | ![/pokemon-gen8/example1](pokemon-gen8/shiny/squirtle.png) | ![/pokemon-gen8/example2](pokemon-gen8/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 8 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older sprites where needed) |
+| `/pokemon‑gen9` | ![/pokemon-gen9/example1](pokemon-gen9/shiny/squirtle.png) | ![/pokemon-gen9/example2](pokemon-gen9/shiny/blastoise.png) | 68×56 | Pokémon | [Gen 9 Sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older sprites where needed) |
+| `/items` | ![/items/ example](items/evo-item/thunder-stone.png) | | 32×32 | Item | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) |
+| `/misc` | ![/misc/ example](misc/body-style/wings-multiple-gen6.png) | | Varies | Misc. | [Miscellaneous sprites](https://msikma.github.io/pokesprite/overview/misc.html) from multiple gens |
 
 
 The original 40×30 Pokémon sprites from Gen 6–7 are kept for legacy purposes in the [`/icons`](icons/) directory.
-
-### Inventory items list
-
-Several files are available for processing the sprites for inventory items:
-
-* [`/data/item-map.json`](data/item-map.json) – a 1:1 map of item IDs and sprite files, e.g. `"item_0017": "medicine/potion"`
-* [`/data/item-unlinked.json`](data/item-unlinked.json) – all inventory sprites not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* sprite is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
-* [`/data/item-legacy.json`](data/item-legacy.json) – a list of old item sprites from previous gen games
-
-See the [inventory overview page](https://msikma.github.io/pokesprite/overview/inventory.html) for a list of items.
-
-### Miscellaneous sprites
-
-For all other sprites that are neither Pokémon nor inventory items, see [`/data/misc.json`](data/misc.json). Notably, the [ribbons](misc/ribbon) can be found there. Each group of miscellaneous sprites has its own unique data format. See the [miscellaneous overview page](https://msikma.github.io/pokesprite/overview/misc.html) for all included images.
 
 ## Sprite Dimensions
 
